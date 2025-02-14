@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #3b3737;
+    color: white;
+    font-family: Montserrat, sans-serif;
+    position: relative;
+}
+
+/* Header Component Css */
+.gamertag{
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-right: 1px solid white;
+    max-width: 30%;
+    height: 100%;
+    padding: 15px;
+    font-size: 1.2rem;
+    display: block;
+}
+
+.gamertag > h2 {
+    font-size: 1.2rem;
+    font-weight: 200;
+    color: blanchedalmond;
+    margin-bottom: 3rem;
+}
+
+.user-1 {
+    margin-right: 5px;
+    border: 1px solid gold;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.icon {
+    color: black;
+    margin-right: 1.2rem;
+}
+
+.search {
+    background-color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.xbox-search {
+    border: none;
+    outline: none;
+    padding-left: 5px;
+    max-width: 100px;
+}
+
+.side-bar {
+    list-style-type: none;
+    display: block;
+    padding: 2px;
+    margin-top: 2.5rem;
+}
+
+.side-bar > li {
+    margin-bottom: 2rem;
+}
+
+.side-bar > li:first-child {
+    margin-left: -5px;
+}
+
+.side-bar > li:hover {
+    background-color: gainsboro;
+    padding: 1rem;
+    border-right: 5px solid green;
+    color: black;
+}
+
+.icon:first-child {
+    color: green;
+}
+
+.bold {
+    font-weight: 800;
+}
+
+.line-break {
+    margin-bottom: 2.5rem;
+}
+
+.no-icon {
+    margin-left: 2.5rem;
+    margin-top: -1rem;
+    margin-bottom: -1rem;
+}
+
+.aside {
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.storage-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-left: 4rem;
+} 
+
+/* Library Componenet Css */
+.options {
+    position: absolute;
+    margin-left: 15rem;
+    margin-top: 5rem;
+}
+
+.filter {
+    display: block;
+}
+
+.filter > h3 {
+    font-size: 2rem;
+    margin-left: 2.2rem;
+}
+
+.filter > ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 5rem;
+    
+}
+
+.filter > ul > li {
+    padding: 0 3rem;
+}
+
+
+.filter > ul > li:hover {
+    border-bottom: 5px solid green;
+    border-radius: 0 0 10px 10px;
+}
+
+/* Games Component CSS */
+
+.game-list {
+    position: absolute;
+    margin-left: 15rem;
+    margin-top: 20rem;
+    display: block;
+    width: 80%;
+    
+}
+
+.sort {
+    margin-left: 2.5rem;
+    display: flex;
+}
+
+.sort-by {
+    margin-right: auto;
+    height: 2rem;
+    width: 30%;
+    background-color: grey;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+h4 {
+    padding: 10px 20px;
+}
+
+.game-filter {
+    margin-left: 10px;
+    background-color: gray;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+/* Game List Css */
+
+
+
+.games {
+    position: relative;
+    top: 25rem;
+    left: 15rem;
+    display: inline-flex;
+    margin: 0 1rem;
+}
+.game-titles {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.game-img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    border-radius: 10px;
+}
+
+.game-name {
+    opacity: 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.game-name:hover {
+    position: absolute;
+    width: 100%;
+    height: 25%;
+    bottom: 0;
+    font-size: 1rem;
+    background-color: #23232499;
+    text-align: left;
+    padding: 10px;
+    opacity: 100;
+    border-radius: 0 0 10px 10px;
+}
+
+
+.game-titles:hover {
+    box-shadow: 0 0 10px 5px green;
+} 
